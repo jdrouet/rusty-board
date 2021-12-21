@@ -2,7 +2,7 @@ use clap::Parser;
 use tracing::Level;
 
 #[derive(Debug, Parser)]
-#[clap(about, version, author)]
+#[clap(name = "rusty-board", about, version, author)]
 pub struct Config {
     #[clap(
         about = "Port to bind the server to",
