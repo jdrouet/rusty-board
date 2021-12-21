@@ -1026,6 +1026,8 @@ dependencies = [
 name = "rusty-board-server"
 version = "0.1.0"
 dependencies = [
+ "actix-http",
+ "actix-rt",
  "actix-web",
  "clap",
  "tracing",
